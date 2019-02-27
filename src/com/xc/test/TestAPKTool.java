@@ -9,7 +9,7 @@ public class TestAPKTool {
     @Test
     public void testAPKTool() {
         long start = System.currentTimeMillis();
-        APKTool.decode("E:\\BiSheProjects\\APKs\\jinritoutiao.apk", "E:\\BiSheProjects\\test2");
+        APKTool.decode("E:\\BiSheProjects\\APKs\\xiaocuicidian.apk", "E:\\BiSheProjects\\DeCodeResults\\xiaocuicidian");
         long end = System.currentTimeMillis();
         TimeConvert.convert((end-start));
 
